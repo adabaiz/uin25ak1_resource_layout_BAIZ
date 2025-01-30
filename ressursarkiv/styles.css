@@ -1,7 +1,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #F2F5FA;
+    background-color: #E1E5EE
+    ;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -10,8 +11,8 @@ body {
 }
 
 .container {
-    background: white;
-    border-radius: 10px;
+    background: #fff;
+    
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 50%;
     min-width: 400px;
@@ -22,7 +23,7 @@ body {
 .tabs {
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px solid #1C2532;
+    border-bottom: 2px solid #2A324B;
 }
 
 .tab {
