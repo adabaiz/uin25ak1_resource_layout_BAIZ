@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbed Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main class="container">
+        <nav class="tabs">
+            <button class="tab active" onclick="changeTab(event, 'html')">HTML</button>
+            <button class="tab" onclick="changeTab(event, 'css')">CSS</button>
+            <button class="tab" onclick="changeTab(event, 'javascript')">JavaScript</button>
+            <button class="tab" onclick="changeTab(event, 'react')">React</button>
+            <button class="tab" onclick="changeTab(event, 'sanity')">Sanity & Headless CMS</button>
+        </nav>
+        
+        <article class="content-box">
+            <section id="html" class="content active">
+                <h2>HTML</h2>
+                <p>HTML står for HyperText Markup Language, og er et strukturspråk som brukes for å lage strukturer til nettside- og applikasjonsgrensesnitt.</p>
+                <ul>
+                    <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools</a></li>
+                    <li><a href="https://html.spec.whatwg.org/" target="_blank">HTML Living Standard</a></li>
+                    <li><a href="https://html.com/" target="_blank">HTML.com Tutorials</a></li>
+                </ul>
+            </section>
+
+            <section id="css" class="content">
+                <h2>CSS</h2>
+                <p>CSS (Cascading Style Sheets) brukes til å beskrive utseendet og formatet på en nettside.</p>
+            </section>
+
+            <section id="javascript" class="content">
+                <h2>JavaScript</h2>
+                <p>JavaScript er et programmeringsspråk som brukes for å legge til interaktivitet på nettsider.</p>
+            </section>
+
+            <section id="react" class="content">
+                <h2>React</h2>
+                <p>React er et JavaScript-bibliotek for å bygge brukergrensesnitt.</p>
+            </section>
+
+            <section id="sanity" class="content">
+                <h2>Sanity & Headless CMS</h2>
+                <p>Sanity er en plattform for strukturert innhold som brukes til headless CMS-løsninger.</p>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
